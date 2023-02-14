@@ -1,0 +1,140 @@
+
+
+
+ #services{
+  background-color: rgba(0, 0, 0, 0.9);
+  
+}
+
+
+  #about{
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 25vh;
+    position: relative;
+    /* opacity: 0.8; */
+    background-image: url('../img/white.jpg');
+  }
+
+  #niver{
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 25vh;
+    position: relative;
+    /* opacity: 0.8; */
+    background-image: url('../img/white.jpg');
+  }
+  
+  .titulo{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    padding: 4%;
+    font-weight: bold;
+  }
+  
+  
+ 
+  strong{
+    font-size: 4rem;
+  }
+  
+  @media (max-width: 768px) {
+  h1.text-center{
+    font-size: 15px;
+  }
+  
+  
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    #image{
+      min-height: 30vh;
+    }
+    h2{
+      font-size: calc(1.125rem + 3.3vw);
+    }
+  }
+  
+  
+  a.nav-link{
+    color: white;
+  }
+  
+.container{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+/* @media (max-width: 768px) {
+    #navbar{
+       margin-bottom: 0px !important;
+      }
+    
+    } */
+
+
+    #home {
+        color: white;
+        
+    }
+    
+    .caixa {
+        padding: 60px 0;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    
+    footer p a {
+        margin: 5px 15px;
+    }
+    
+    .nav-link{
+        color: white !important;
+        font-weight: bold;
+        opacity: 0.9;
+        transition: 0.3s;
+    }
+    
+    .nav-link:hover{
+        color: #f4dc0f !important;
+        opacity: 1;
+    }
+    
+    .btn-primary { 
+        background-color: #f05f40;
+        border-color: #f05f40;
+        color: #fff;
+        padding: 1em 2em;
+    }
+    
+    #nav-brand{
+        font-size: 1.75em;
+        transition: all .3s;
+        color: #fed136;
+        font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+        
+    }
+    
+    #fonte{
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    }
+    
+    #bloco-titulo{
+    
+        font-family: Roboto, sans-serif;
+        padding-top: 130px;
+        /* padding-bottom: 330px; */
+    }
+    
+    .box{
+        text-align: center;
+        padding: 35px;
+        background-color: #fff;
+        margin-bottom: 30px;
+    }
