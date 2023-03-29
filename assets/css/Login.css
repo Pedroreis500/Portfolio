@@ -1,0 +1,108 @@
+ .image-text{
+    color: #fff;
+    font-family: lato;
+    font-size: 4rem;
+    letter-spacing: .01em;
+    line-height: 1.3;
+    max-width: 19rem;
+    position: absolute;
+    top: 33.5rem;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+@media (max-width: 1240px) {
+  .col-md-8 {
+    display: none;
+  }
+
+  .col-md-3 {
+    width: 100%;
+  }
+  
+}
+
+.botao{
+  background-color: #4fbdf4;
+  border: none;
+  border-radius: 10rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  height: 3.1rem;
+  letter-spacing: .04rem;
+  max-width: 100%;
+  min-width: 380px;
+  outline: 0.1rem solid transparent;
+ 
+  margin-top: 1rem;
+}
+
+
+/*
+.bloco{
+    justify-content: center;
+    max-width: 78.7rem;
+    position: relative;
+    width: 100%;
+} */
+
+
+/*------------------------------ */
+
+.welcome-section {
+  background-color: #52b4e6;
+}
+.welcome-image {
+  text-align: center;
+}
+.welcome-image img {
+  max-width: 100%;
+  height: auto;
+}
+.image-text {
+  text-align: left;
+}
+/* login div */
+.login-section {
+  background-color: white;
+}
+.login-form {
+  text-align: center;
+}
+.login-form h2 {
+  margin-top: 0;
+}
+.login-form h3 {
+  margin-top: 1rem;
+}
+.login-form form {
+  margin-top: 2rem;
+}
+.login-form .form-group {
+  margin-bottom: 1rem;
+}
+.login-form button {
+  width: 20em;
+  margin-top: 1rem;
+}
+@media only screen and (min-width: 768px) {
+  .welcome-section,
+  .login-section {
+    height: 100vh;
+  }
+  .welcome-section {
+    flex-basis: 60%;
+  }
+  .login-section {
+    flex-basis: 40%;
+  }
+  .welcome-image {
+    height: 100%;
+  }
+  .image-text {
+    position: absolute;
+  }
+
+}
