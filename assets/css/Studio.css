@@ -11,9 +11,6 @@
     font-weight: bold;
   }
 
-
-
-
 strong{
     font-size: 2.5rem;
 }
@@ -82,27 +79,7 @@ strong{
 
 
 
-#botao2{
-  font-weight: 700;
-  font-size: 17px;
-  padding: 1rem 2rem;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 300px;
-}
-.fa-diamond:before  {
-color: #f05f40;
-}
-.fa-send:before, .fa-paper-plane:before {
-color: #f05f40;
-}
 
-.fa-newspaper-o:before {
-color: #f05f40;
-}
-.fa-heart:before {
-color: #f05f40;
-}
 
 hr{
     margin-top: 30px;
@@ -174,7 +151,7 @@ hr{
 #about ul.list-group li {
   border: none; 
   background: none;
-  margin: 50px 0;
+  margin: -8px;
 }
 
 .timeline {
@@ -204,7 +181,8 @@ hr{
 .timeline>li .timeline-panel {
     float: left;
     width: 41%;
-    padding: 0 20px 20px 30px;
+    /* padding: 0 20px 20px 30px; */
+    padding: 0 37px 20px 30px;
     text-align: right;
     
 }
@@ -215,9 +193,9 @@ hr{
 {
   .timeline>li.timeline-inverted>.timeline-panel {
       float: right;
-      padding: 0 30px 20px 20px;
+      padding: 0 37px 20px 30px;
       text-align: left;
-     
+    
   }
 
 }
@@ -232,7 +210,7 @@ p {
   top: -100px;
 }
 
-@media (max-width: 768px)
+@media (max-width: 868px)
 {
   
   .timeline-panel {
@@ -243,18 +221,16 @@ p {
     margin-left: 130px;
   }
 
+ .modal-content{
+    height: 300vw !important;
+  }
+
 }
 
 .team-member {
   margin-left: 110px;
 }
 
-.team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid #fff;
-  
-}
 
 #team{
   position: relative;
@@ -264,10 +240,41 @@ p {
 
 @media (min-width: 768px)
 {
-section {
+
+#team{
+  margin-top: 100px;
+}
+
+}
+
+/*ajuste da resolução*/
+@media (max-width: 768px)
+{
+ 
+ section{
     padding: 150px 0;
+  }
+
+  .team-member img {
+    width: 200px;
+    height: 200px;
+    border: 7px solid #fff;
+    
+  }
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: white;
+  left: 50%;
+  margin-left: -3px;
+  
 }
+
+
 }
+
+
 
 
 ul.social-buttons li a {
@@ -288,10 +295,21 @@ ul.social-buttons li a {
 }
 
 #map {
-  background-image: url('https://i.pinimg.com/originals/61/6b/b1/616bb1eb36669a09ecdbc1b7c65d8886.jpg');
+  background-image: url('../img/map-image.png');
   background-color: #212529;
   background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-position: center;
+  padding: 130px 0;
+}
+
+
+@media (min-width: 1200px)
+{
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid #fff;
   
 }
+}
+
