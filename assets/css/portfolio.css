@@ -1,6 +1,5 @@
 #home {
 	color: white;
-	
 }
 
 .caixa {
@@ -10,33 +9,6 @@
 
 footer p a {
 	margin: 5px 15px;
-}
-
-.nav-link{
-	color: white !important;
-	font-weight: bold;
-	opacity: 0.9;
-    transition: 0.3s;
-}
-
-/* .nav-link:hover{
-	color: #f4dc0f !important;
-	opacity: 1;
-}
-
-.btn-primary { 
-    background-color: #f05f40;
-    border-color: #f05f40;
-    color: #fff;
-	padding: 1em 2em;
-} */
-
-#nav-brand{
-	font-size: 1.75em;
-    transition: all .3s;
-	color: #fed136;
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-	
 }
 
 #fonte{
@@ -74,6 +46,36 @@ footer p a {
 	padding-top: 0rem !important;
 }
 
-.about-section  {
+.about-section p {
     margin-bottom: 1rem;
+}
+
+
+.rounded-pill {
+	display: inline-block;
+	padding: 16px 32px;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	animation: scaling 0.8s infinite alternate;
+	background-color:#f05f40 ;
+  }
+
+  
+  
+  @keyframes scaling {
+	0% {
+	  transform: scale(0.9);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid white;
 }
